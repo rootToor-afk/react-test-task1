@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Counter = () => {
-  const getCurrentTime = () =>
+  const getCurrentTime = (): string =>
     new Date().toLocaleTimeString("nu", {
       hour12: true,
       hour: "2-digit",
