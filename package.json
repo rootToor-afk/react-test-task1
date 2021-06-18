@@ -1,0 +1,40 @@
+{
+  "name": "exercise1",
+  "description": "A react app which shows current time.",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest --updateSnapshot",
+    "start": "webpack-dev-server --port=3003  --hot --inline"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "babel-loader": "^8.2.2",
+    "pretty": "^2.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/pretty": "^2.0.0",
+    "jest": "^27.0.4",
+    "react-addons-test-utils": "^15.6.2",
+    "source-map-loader": "^0.1.6",
+    "ts-jest": "^27.0.3",
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "typescript": "^2.9.2",
+    "typings": "^1.5.0",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  }
+}
